@@ -4,27 +4,214 @@
     box-sizing: border-box;
 }
 body {
-    font-size: 14px;
-    line-height: 1.4;
-    font-family: "Montserrat", Arial, sans-serif;
-    color: #222;
-}
-#main{
-    width: 100%;
-    margin: 0 auto;
-    padding: 20px;
+    /* home page */
+    position: relative;
+    width: 1440px;
+    height: 7819px;
+    background: #FFFFFF;
 }
 #header{
-    width: 100%;
-    height: ;
-    background-color: #007BFF;
+   /* Task baar */
+    position: absolute;
+    width: 1440px;
+    height: 108px;
+    left: 0px;
+    top: 0px;
 }
-#slider{
+nav{
+    /* Frame 510 */
+    position: absolute;
+    width: 1237px;
+    height: 45px;
+    left: 102px;
+    top: 31px;
+
 
 }
-#content{
+#logo{
+    background: url(../img/icon/Logo.png);
+/* Logo */
+    position: absolute;
+    width: 91.16px;
+    height: 45px;
+    left: 0px;
+    top: 0px;
+}
+#main_menu{
+    /* details */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 40px;
+list-style: none;
+position: absolute;
+width: 483px;
+height: 26px;
+left: 179px;
+top: 9px;
 
 }
-#footer{
+#main_menu a{
+    /* Women */
 
+    width: 74px;
+    height: 26px;
+
+    font-family: 'Causten';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-decoration: none;
+    color: #807D7E;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    }   
+#main_menu .Shop{
+    width: 50px;
+    height: 26px;
+    font-family: 'Causten';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 22px;
+    line-height: 26px;
+    color: #3C4242;
+    ;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#header .search{
+/* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 20px;
+    gap: 12px;
+    position: absolute;
+    width: 267px;
+    height: 44px;
+    left: 738px;
+    top: 0px;
+    background: #F6F6F6;
+    border-radius: 8px;
+}
+#icon_search{
+    /* search
+    Regular
+    Essentials
+    */
+    background: url(../img/icon/search.png) no-repeat center center;
+    width: 20px;
+    height: 20px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: #F6F6F6;
+    outline: none;
+}
+.search input :placeholder-shown{
+    /* Button */
+    width: 49px;
+    height: 19px;
+    font-family: 'Causten';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #807D7E;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.search input{
+    background: #F6F6F6;
+    color: #807D7E;
+    width: 247px;
+    height: 44px;
+    border: none;
+    outline: none;
+}
+.cart{
+    /* button */
+/* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    position: absolute;
+    width: 156px;
+    height: 44px;
+    left: 1081px;
+    top: 0px;
+}
+.cart .cart_icon_heart{
+    /* Component 1 */
+/* Auto layout */
+background: url(../img/icon/heart.png) no-repeat center center;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+gap: 12px;
+width: 44px;
+height: 44px;
+border-radius: 8px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+background-color: #F6F6F6;
+}
+.cart .cart_icon_trangcanhan{
+    /* Component 1 */
+/* Auto layout */
+background: url(../img/icon/user.png) no-repeat center center;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+gap: 12px;
+width: 44px;
+height: 44px;
+border-radius: 8px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+background-color: #F6F6F6;
+}
+.cart .cart_icon_giohang{
+    /* Component 1 */
+/* Auto layout */
+background: url(../img/icon/shoppingcart.png) no-repeat center center;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+gap: 12px;
+width: 44px;
+height: 44px;
+border-radius: 8px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+background-color: #F6F6F6;
 }
