@@ -40,27 +40,25 @@ nav{
 #main_menu{
     /* details */
 
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 40px;
-list-style: none;
-position: absolute;
-width: 483px;
-height: 26px;
-left: 179px;
-top: 9px;
-
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    list-style: none;
+    position: absolute;
+    width: 483px;
+    height: 26px;
+    left: 179px;
+    top: 9px;
 }
 #main_menu a{
     /* Women */
 
     width: 74px;
     height: 26px;
-
     font-family: 'Causten';
     font-style: normal;
     font-weight: 500;
@@ -214,4 +212,520 @@ flex: none;
 order: 0;
 flex-grow: 0;
 background-color: #F6F6F6;
+}
+#banner{
+    /* shop-hero-1-product-slide-1 */
+    background: url(../img/banner.jpg);
+    position: absolute;
+    width: 1440px;
+    height: 716px;
+    left: -4px;
+    top: 108px;
+}
+#banner .banner_text{
+    /* Banner Text */
+    position: absolute;
+    width: 439px;
+    height: 455px;
+    left: 193px;
+    top: 129px;
+}
+.banner_text h5{
+    /* h5 #header-tag */
+    position: absolute;
+    width: 211px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Core Sans C';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height, or 118% */
+    letter-spacing: 0.15738px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.banner_text h1{
+    /* h1 #headline */
+
+    position: absolute;
+    width: 439px;
+    height: 188px;
+    left: 0px;
+    top: 78px;
+
+    font-family: 'Core Sans C';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 78px;
+    line-height: 94px;
+    /* or 120% */
+    letter-spacing: 0.31476px;
+
+    color: #FFFFFF;
+}
+.banner_text h4{
+    /* h4 #sub-headline */
+    position: absolute;
+    width: 358px;
+    height: 48px;
+    left: 0px;
+    top: 306px;
+    font-family: 'Core Sans C';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 47px;
+    /* identical to box height, or 148% */
+    letter-spacing: 0.31476px;
+    color: #FFFFFF;
+}
+#banner .banner_text_click{
+    /* button */
+
+/* Auto layout */
+/* Button */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 72px;
+    gap: 12px;
+    position: absolute;
+    width: 250px;
+    height: 61px;
+    left: 0px;
+    top: 394px;
+    background: #FFFFFF;
+    border-radius: 8px ;
+    border: none;
+    text-decoration: none;
+}
+#banner .banner_text_noidung_click{
+    /* Button */
+    width: 106px;
+    height: 29px;
+    font-family: 'Causten';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #3C4242;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+#sale{
+    /* Deals */
+    position: absolute;
+    width: 1239.87px;
+    height: 356.2px;
+    left: 100px;
+    top: 954px;
+}
+#sale .box_sale_1{
+    background: url(../img/sale1.jpg);
+    /* High coziness */
+    position: absolute;
+    width: 604.93px;
+    height: 356.2px;
+    left: 0px;
+    top: 0px;
+    border-radius: 12px;
+    filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.4));
+}
+#sale .box_sale_2{
+    background: url(../img/sale2.jpg);
+    /* Breezy Summer Style */
+
+    position: absolute;
+    width: 604.93px;
+    height: 355.84px;
+    left: 634.93px;
+    top: 0px;
+    border-radius: 12px;
+    filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.4));
+}
+.box_sale_1  .box_sale_1_text_start{
+    /* h6 */
+    position: absolute;
+    width: 97px;
+    height: 31px;
+    left: 28.12px;
+    bottom: 257.91px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    letter-spacing: 0.250557px;
+    color: #FFFFFF;
+}
+.box_sale_1 h2{
+    /* h2 */
+
+    position: absolute;
+    width: 234px;
+    height: 46px;
+    left: 28.12px;
+    top: 122.54px;
+
+    font-family: 'Core Sans C';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    /* identical to box height, or 133% */
+
+    color: #FFFFFF;
+
+
+}
+.box_sale_1 h3{
+    /* h3 */
+    position: absolute;
+    width: 119px;
+    height: 26px;
+    left: 28.12px;
+    bottom: 152.42px;
+
+    font-family: 'Core Sans C';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 157% */
+    letter-spacing: 0.250557px;
+    color: #FFFFFF;
+}
+.box_sale_1  .box_sale_1_text_end{
+/* h6 */
+    position: absolute;
+    width: 136px;
+    height: 31px;
+    left: 32.14px;
+    bottom: 79.9px;
+    font-family: 'Core Sans C';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 151% */
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.box_sale_2_maintext{
+    /* Breezy Summer Style */
+  /* Frame 145 */
+    position: absolute;
+    width: 264px;
+    height: 243.24px;
+    left: 30.07px;
+    top: 57px;
+}
+.box_sale_2  .box_sale_2_text_start{
+    /* h6 */
+    position: absolute;
+    width: 180px;
+    height: 31px;
+    left: 0px;
+    bottom: 212.24px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    letter-spacing: 0.250557px;
+    color: #FFFFFF;
+}
+.box_sale_2 h2{
+    /* h2 */
+    position: absolute;
+    width: 264px;
+    height: 91px;
+    left: 0px;
+    top: 55.24px;
+
+    font-family: 'Core Sans C';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    /* or 133% */
+    color: #FFFFFF;
+}
+.box_sale_2 h3{
+    /* h3 */
+    position: absolute;
+    width: 119px;
+    height: 26px;
+    left: 0px;
+    bottom: 61px;
+
+    font-family: 'Core Sans C';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 157% */
+    letter-spacing: 0.250557px;
+    color: #FFFFFF;
+}
+.box_sale_2  .box_sale_2_text_end{
+    /* h6 */
+    /* h6 */
+    position: absolute;
+    width: 136px;
+    height: 31px;
+    left: 0px;
+    bottom: 0px;
+
+    font-family: 'Core Sans C';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 151% */
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+/* footer */
+#footer{
+    /* Footer */
+    position: absolute;
+    width: 1440px;
+    height: 731px;
+    left: 0px;
+    top: 7088.19px;
+    /* Rectangle 36 */
+}
+#footer #footer_background{
+    /* Rectangle 36 */
+    position: absolute;
+    width: 1440px;
+    height: 731px;
+    left: 0px;
+    top: 0px;
+    background: #3C4242;
+}
+#footer_noidung{
+    /* Frame 127 */
+    position: absolute;
+    width: 1220px;
+    height: 613px;
+    left: 110px;
+    top: 59px;
+}
+#footer_morong{
+    /* Frame 123 */
+
+    position: absolute;
+    width: 1059px;
+    height: 292px;
+    left: 76px;
+    top: 0px;
+}
+#need_help{
+    /* Frame 119 */
+    position: absolute;
+    width: 142px;
+    height: 292px;
+    left: 0px;
+    top: 0px;
+}
+#company{
+    /* Frame 120 */
+    position: absolute;
+    width: 121px;
+    height: 292px;
+    left: 222px;
+    top: 0px;
+}
+#follow_us{
+    /* Frame 121 */
+    position: absolute;
+    width: 162px;
+    height: 248px;
+    left: 423px;
+    top: 0px;
+}
+#location{
+    /* Frame 122 */
+    position: absolute;
+    width: 394px;
+    height: 204px;
+    left: 665px;
+    top: 0px;
+}
+.muc_lon{
+    width: 127px;
+    height: 62px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Causten;
+    font-size: 28.58px;
+    font-weight: 700;
+    line-height: 61.99px;
+    text-align: left;
+    color: #F6F6F6;
+}
+.muc_nho{
+    width: 142px;
+    height: 39px;
+    top: 88px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Causten;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 39.04px;
+    text-align: left;
+    color: #F6F6F6;
+}
+#footer_lienket{
+    /* Frame 18 */
+/* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 9.97px;
+    position: absolute;
+    width: 178px;
+    height: 37.02px;
+    left: 83px;
+    top: 369px;
+}
+
+#icon_facebook{
+    /* facebook */
+    background: url(../img/icon/facebook.png) no-repeat center center;
+    /* Vector */
+
+    position: absolute;
+    left: 7.6%;
+    right: 87.04%;
+    top: 25%;
+    bottom: 26.92%;
+
+  
+}
+#icon_instagram{
+    /* instagram */
+    background: url(../img/icon/instagram.png) no-repeat center center;
+    /* Vector */
+
+    position: absolute;
+    left: 32.4%;
+    right: 58.85%;
+    top: 28.85%;
+    bottom: 29.07%;
+
+
+}
+#icon_twitter{
+    /* twitter */
+    background: url(../img/icon/twitter.png) no-repeat center center;
+    /* Vector */
+
+    position: absolute;
+    left: 59.2%;
+    right: 30.8%;
+    top: 30.77%;
+    bottom: 30.18%;
+
+
+}
+#icon_in{
+    /* in */
+    background: url(../img/icon/in.png) no-repeat center center;
+    /* in */
+
+    position: absolute;
+    left: 85.6%;
+    right: 5.2%;
+    top: 11.54%;
+    bottom: 34.62%;
+    color: #2A2F2F;
+
+
+}
+.icon_lien_ket{
+    /* Group 10 */
+    /* Rectangle 66 */
+    /* Rectangle 66 */
+    width: 37.02px;
+    height: 37.02px;
+    gap: 0px;
+    border-radius: 10.68px 0px 0px 0px;
+    opacity: 0px;
+    background: #F6F6F6;
+    border-radius: 10.68px;
+    flex: none;
+}
+#footer_download{
+        /* Download The App */
+    position: absolute;
+    width: 237px;
+    height: 62px;
+    left: 665px;
+    top: 280px;
+    /* identical to box height, or 62px */
+}
+#footer_download p{
+    width: 237px;
+}
+#footer_download_click{
+    /* Frame 126 */
+    position: absolute;
+    width: 328.76px;
+    height: 52.26px;
+    left: 746px;
+    top: 361px;
+}
+.googleplay{
+    /* Vector */
+
+    position: absolute;
+    left: 0%;
+    right: 53.23%;
+    top: 0%;
+    bottom: 1.96%;
+    background: #404040;
+
+}
+.img_chplay{
+    /* Group */
+    position: absolute;
+    left: 2.64%;
+    right: 88.34%;
+    top: 17.49%;
+    bottom: 19.41%;
+}
+#text_app_chuthich{
+    /* Frame 124 */
+    position: absolute;
+    width: 92px;
+    height: 33.76px;
+    left: 41.88px;
+    top: 9px;
+}
+.appstore{
+    /* Group */
+    position: absolute;
+    left: 53.23%;
+    right: 0%;
+    top: 1.91%;
+    bottom: 0%;
 }
