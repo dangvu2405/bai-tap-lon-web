@@ -7,60 +7,55 @@
     <title>Cửa Hàng NHà MOI</title>
 </head>
 <body>
-<div id="header">
-    <nav>
-        <a href="" id="logo">
-            <div class="logo_text">Euphoria</div>
-            <div class="logo_vector"></div>
-            <div class="logo_text_nho"></div>
-        </a>
-        <ul id="main_menu">
-            <li><a class="Shop" href="#">Shop</a></li>
-            <li><a class="Men" href="#">Men</a></li>
-            <li><a class="Women" href="#">Women</a></li>
-            <li><a class="Combos" href="#">Combos</a></li>
-            <li><a class="Joggers" href="#">Joggers</a></li>
-        </ul>
-        <div class="search">
-            <button id="icon_search" ></button>
-            <input type="text" placeholder="Search">
+    <div id="header">
+        <nav>
+            <a href="#" id="logo"></a>
+            <ul id="main_menu">
+                <li><a class="Choose Shop" href="#">Shop</a></li>
+                <li><a class="Choose Men" href="#">Men</a></li>
+                <li><a class="Choose Women" href="#">Women</a></li>
+                <li><a class="Choose Combos" href="#">Combos</a></li>
+                <li><a class="Choose Joggers" href="#">Joggers</a></li>
+            </ul>
+            <div id="search">
+                <button class="search_icon" ></button>
+                <input class="search_input" type="text" placeholder="Search">
+            </div>
+            <div class="cart">
+                <div class="cart_icon cart_icon--heart"></div>
+                <div class="cart_icon cart_icon--trangcanhan"></div>
+                <div class="cart_icon cart_icon--giohang"></div>
         </div>
-        <div class="cart">
-            <div class="cart_icon_heart"></div>
-            <div class="cart_icon_trangcanhan"></div>
-            <div class="cart_icon_giohang"></div>
+            </div>
+        </div>
+        <div id="banner">
+            <div class="banner_click_lui"></div>
+            <div class="banner_text">
+                <h5 class="banner_text_noidung">T-shirt / Tops</h5>
+                <h1 class="banner_text_noidung">Summer Value Pack</h1>
+                <h4 class="banner_text_noidung">cool / colorful / comfy</h4>
+                <button href="#" class="banner_text_click"><p>Shop Now</p></button>
+            </div>
+            <div class="banner_click_tien"></div>
+        </nav>
     </div>
-        </div>
-    </div>
-    <div id="banner">
-        <div class="banner_text">
-            <h5 class="banner_text_noidung">T-shirt / Tops</h5>
-            <h1 class="banner_text_noidung">Summer 
-                Value Pack</h1>
-            <h4 class="banner_text_noidung">cool / colorful / comfy</h4>
-            <a href="#" class="banner_text_click"><p class="banner_text_noidung_click">Shop Now</p></a>
-        </div>
-        <div class="banner_click_lui"></div>
-        <div class="banner_click_tien"></div>
-        
-    </nav>
-</div>
 <div id="content">
     <!-- Sale start -->
-    <div class="content_lon" id="sale">
-        <div class="box_sale_1">
-            <h6 class="box_sale_1_text_start">Low Price</h6>
-            <h2 class="box_sale_1_text">High Coziness</h2>
-            <h3 class="box_sale_1_text">UPTO 50% OFF</h3>
-            <a href="#" class="box_sale_1_text_end">Explore Items</a>
+    <div id="sale">
+        <div class="sale_box sale_box--1"></div>
+        <div class="sale_box_text--1">
+            <h6 class="sale_box_text--1 ">Low Price</h6>
+            <h2 class="sale_box_text--1">High Coziness</h2>
+            <h3 class="sale_box_text--1">UPTO 50% OFF</h3>
+            <a href="#" class="sale_box_btn--1">Explore Items</a>
         </div>
-        <div class="box_sale_2">
-            <div class="box_sale_2_maintext">
-                <h6 class="box_sale_2_text_start">Beyoung Presents</h6>
-                <h2 class="box_sale_2_text">Breezy Summer
+        <div class="sale_box sale_box--2">
+            <div class="sale_box_text--2">
+                <h6 class="sale_box_text--2">Beyoung Presents</h6>
+                <h2 class="sale_box_text--2">Breezy Summer
                     Style</h2>
-                <h3 class="box_sale_2_text">UPTO 50% OFF</h3>
-                <a href="#" class="box_sale_2_text_end">Explore Items</a>
+                <h3 class="sale_box_text--2">UPTO 50% OFF</h3>
+                <a href="#" class="sale_box_text--2">Explore Items</a>
             </div>
         </div>
     </div>
@@ -311,73 +306,80 @@
         <div id="footer_noidung">
             <div id="footer_morong">
                 <div id="need_help">
-                    <h3 class="muc_lon">Need Help</h3>
+                    <h3 class="muc_lon muc_lon--Need_Help">Need Help</h3>
+                       <div class="muc_nho_package muc_nho--Need_Help">
                         <p class="muc_nho">Contact Us</p>
                         <p class="muc_nho">Track Order</p>
                         <p class="muc_nho">Returns & Refunds</p>
                         <p class="muc_nho">FAQ's</p>
                         <p class="muc_nho">Career</p>
+                       </div>
                 </div>
                 <div id="company">
-                    <h3 class="muc_lon">Company</h3>
-                        <p class="muc_nho">About Us</p>
-                        <p class="muc_nho">euphoria Blog</p>
-                        <p class="muc_nho">euphoriastan</p>
-                        <p class="muc_nho">Collaboration</p>
-                        <p class="muc_nho">Media</p>
+                    <h3 class="muc_lon muc_lon--Company">Company</h3>
+                        <div class="muc_nho_package muc_nho--Company">
+                            <p class="muc_nho">About Us</p>
+                            <p class="muc_nho">euphoria Blog</p>
+                            <p class="muc_nho">euphoriastan</p>
+                            <p class="muc_nho">Collaboration</p>
+                            <p class="muc_nho">Media</p>
+                        </div>
                 </div>
                 <div id="follow_us">
-                    <h3 class="muc_lon">More Info</h3>
-                        <p class="muc_nho">Term and Conditions</p>
-                        <p class="muc_nho">Privacy Policy</p>
-                        <p class="muc_nho">Shipping Policy</p>
-                        <p class="muc_nho">Sitemap</p>
+                    <h3 class="muc_lon muc_lon--More_Info">More Info</h3>
+                        <div class="muc_nho_package muc_nho--More_Info">
+                            <p class="muc_nho">Term and Conditions</p>
+                            <p class="muc_nho">Privacy Policy</p>
+                            <p class="muc_nho">Shipping Policy</p>
+                            <p class="muc_nho">Sitemap</p>
+                        </div>
                 </div>
                 <div id="location">
-                    <h3 class="muc_lon">Location</h3>
+                    <h3 class="muc_lon muc_lon--Location">Location</h3>
+                        <div class="muc_nho_package muc_nho--Location">
                         <p class="muc_nho">support@euphoria.in</p>
                         <p class="muc_nho">Eklingpura Chouraha, Ahmedabad Main Road</p>
                         <p class="muc_nho">(NH 8- Near Mahadev Hotel) Udaipur, India- 313002</p>
+                        </div>
     
                 </div>
             </div>
+                <p class="muc_lon footer_download">Download The App </p>
             <div id="footer_lienket">
-                <div class="icon_lien_ket" >
-                    <div class="icon_click" id="icon_facebook"></div>
-                </div>
-                <div class="icon_lien_ket" >
-                    <div class="icon_click" id="icon_instagram"></div>
-                </div>
-                <div class="icon_lien_ket" >
-                    <div class="icon_click" id="icon_twitter"></div>
-                </div>
-                <div class="icon_lien_ket" >
-                    <div class="icon_click" id="icon_in"></div>
-                </div>            
+                <a class="icon_lien_ket " >
+                    <div class="icon_click icon_lienket--facebook" ></div>
+                </a>
+                <a class="icon_lien_ket " >
+                    <div class="icon_click icon_lienket--instagram" ></div>
+                </a>
+                <a class="icon_lien_ket" >
+                    <div class="icon_click icon_lienket--twitter" ></div>
+                </a>
+                <a class="icon_lien_ket " >
+                    <div class="icon_click icon_lienket--in" ></div>
+                </a>            
             </div>
-            <div id="footer_download">
-                <p class="muc_lon">Download The App </p>
-            </div>
-            <div id="footer_download_click">
-                <div class="googleplay">
-                    <div class="img_chplay"></div>
-                    <p class="" id="text_app_chuthich"></p>
-                    <p class="muc_nho" id="text_app"></p>
+
+            <div id="footer_download_app">
+                <div class="app chplay">
+                    <div class="app_img chplay_img"></div>
+                    <div class="app_text chplay_text">
+                        <p class="app_text-1 chplay_text-1">android app on</p>
+                        <p class="app_text-2 chplay_text-2">Google Play</p>
+                    </div>
                 </div>
-                <div class="appstore">
-                    <div class="img_appstore"></div>
-                    <p class="" id="text_app_chuthich"></p>
-                    <p class="muc_nho" id="text_app"></p>
+                <div class="app appstore">
+                    <div class="app_img appstore_img"></div>
+                    <div class="app_text appstore_text">
+                        <p class="app_text-1 appstore_text-1">Available on the</p>
+                        <p class="app_text-2 appstore_text-2">App Store</p>
+                    </div>
                 </div>
             </div>
-            <hr>
-            <div id="footer_popular">
-                <p class="muc_lon">Popular Categories</p>
-            </div>
-            <hr>
-            <div id="footer_banquyen">
-                <div class="muc_nho">Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.</div>
-            </div>
+            <div class="footer_line footer_line_1"></div>
+                <p class="muc_lon footer_popular">Popular Categories</p>
+            <div class="footer_line footer_line_2"></div>
+                <p class="muc_nho footer_banquyen">Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.</p>
     </div>
     </div>
     </div>    
