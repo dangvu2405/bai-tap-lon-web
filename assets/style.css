@@ -2197,7 +2197,7 @@ margin: 14px 14px 14px 14px;
     /* android app on */
 
 /* android app on */
-    width: 66px;
+    width: 70px;
     height: 12px;
     left: 8.7px;
     gap: 0px;
@@ -2304,4 +2304,28 @@ margin: 14px 14px 14px 14px;
     color: #FFFFFF;
     margin: 0px;
 }
+.icon_lienket--facebook{
+    background: url(../img/icon/facebook.png) no-repeat center center;
+}
+.icon_lienket--instagram{
+    background: url(../img/icon/instagram.png) no-repeat center center;
+}
+.icon_lienket--twitter{
+    background: url(../img/icon/twitter.png) no-repeat center center;
+}
+.icon_lienket--in{
+    background: url(../img/icon/in.png) no-repeat center center;
+    margin :8px;
+}
+.chplay_img{
+    background: url(../img/icon/chplay.png) no-repeat center center;
+    width: 29.65px;
+    height: 32.98px;
 
+}
+.appstore_img{
+    background: url(../img/icon/ios.png) no-repeat center center;
+    width: 20.62px;
+    height: 31.63px;
+
+}
