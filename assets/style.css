@@ -313,6 +313,1653 @@ nav{
 /* banner end */
 /* content start */
 /* content end */
+@font-face {
+    font-family: 'Causten';
+    src: url('font-chu/Causten-Regular.otf');
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font-chu/Montserrat-Black.ttf');
+}
+@font-face {
+    font-family: 'Core Sans C';
+    src: url('font-chu/Fontspring-DEMO-coresansc65.otf');
+  }
+#sale{
+    /* Deals */
+    position: absolute;
+    width: 1239.87px;
+    height: 356.2px;
+    left: 100px;
+    top: 954px;
+}
+.sale_box{
+    /* unsplash:Qyc13QBGaM4 */
+  
+    position: absolute;
+    width: 604.93px;
+    height: 355.84px;
+    top: 0.36px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    box-shadow: 2px 2px 10px 0px #00000066;
+
+}
+.sale_box--1{
+    background: url(../img/sale1.jpg);
+}
+.sale_box--2{
+    background: url(../img/sale2.jpg);
+    /* Breezy Summer Style */
+    position: absolute;
+    width: 604.93px;
+    height: 355.84px;
+    left: 634.93px;
+    top: 0px;
+}
+.sale_box_package{
+    /* Frame 145 */
+    position: absolute;
+    width: 264px;
+    height: 243.24px;
+    left: 30.07px;
+    top: 57px;
+}
+.sale_box_package h6{
+   /* h6 */
+    position: absolute;
+    width: 200px;
+    height: 31px;
+    left: 0px;
+    bottom: 212.24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    letter-spacing: 0.250557px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+.sale_box_package h2{
+    /* h2 */
+    position: absolute;
+    width: 264px;
+    height: 91px;
+    left: 0px;
+    top: 55.24px;
+    font-family: 'Core Sans C';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    /* or 133% */
+    color: #FFFFFF;
+    margin: 0px;
+}
+.sale_box_package h3{
+    /* h3 */
+    position: absolute;
+    width: 119px;
+    height: 26px;
+    left: 0px;
+    bottom: 61px;
+    font-family: 'Causten';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 157% */
+    letter-spacing: 0.250557px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+.sale_box_btn{
+    /* h6 */
+    position: absolute;
+    width: 136px;
+    height: 31px;
+    left: 0px;
+    bottom: 0px;
+    font-family: 'Core Sans C';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 151% */
+    text-decoration-line: underline;
+    color: #FFFFFF;
+} 
+#new_arrial{
+    /* New Arrival */
+    position: absolute;
+    width: 1238.59px;
+    height: 415.67px;
+    left: 100px;
+    top: 1410px;
+    display: inline-flex;
+}
+.new_arrial_main{
+    /* Frame 138 */
+    position: absolute;
+    width: 420px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+}
+.chapter{
+    /* Rectangle 21 */
+    position: absolute;
+    width: 6px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    background: #8A33FD;
+    border-radius: 10px;
+    }
+.chapter_icon{
+    /* New Arrival */
+
+    position: absolute;
+    width: 394px;
+    height: 31px;
+    left: 26px;
+    top: 1px;
+    font-family: 'Core Sans C';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 34px;
+    /* or 99% */
+    letter-spacing: 0.02em;
+    color: #3C4242;
+    margin: 0px;
+}
+.chapter_text{
+    /* New Arrival */
+    position: absolute;
+    width: 410px;
+    height: 31px;
+    left: 26px;
+    top: 1px;
+    font-family: 'Core Sans C';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 34px;
+    /* or 99% */
+    letter-spacing: 0.02em;
+    color: #3C4242;
+    margin: 0px;
+}
+.new_arrial--choose{
+    /* Frame 140 */
+    position: absolute;
+    width: 1237.59px;
+    height: 313.67px;
+    left: 1px;
+    top: 102px;
+}
+
+.new_arrial_box--all{
+/* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 38.58px;
+    position: absolute;
+    width: 1167px;
+    height: 319.67px;
+    left: calc(50% - 1167px/2 + 1.71px);
+    top: -0.2px;
+}
+.new_arrial_box{
+    /* Group 17404 */
+    width: 262.81px;
+    height: 319.67px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.new_arrial_box_img{
+    /* photographer-white-background */
+    position: absolute;
+    width: 262.81px;
+    height: 262.81px;
+    left: 0px;
+    top: 0px;
+    border-radius: 12px;
+    }
+    .new_arrial_box_img--1{
+        background: url(../img/newarrial1.png) no-repeat;
+    }
+    .new_arrial_box_img--2{
+        background: url(../img/newarrial2.png) no-repeat;
+        /* Rectangle 28 */
+        position: absolute;
+        width: 262.81px;
+        height: 262.81px;
+        left: 301.39px;
+        top: 0px;
+        border-radius: 12px;
+
+    }
+    .new_arrial_box_img--3{
+        background: url(../img/newarrial3.png) no-repeat;
+        /* Rectangle 28 */
+        position: absolute;
+        width: 262.81px;
+        height: 262.81px;
+        left: 602.79px;
+        top: 0px;
+        border-radius: 12px;
+    }
+    .new_arrial_box_img--4{
+        background: url(../img/newarrial4.png) no-repeat;
+        /* Rectangle 28 */
+
+        position: absolute;
+        width: 262.81px;
+        height: 262.81px;
+        left: 904.19px;
+        top: 0px;
+        border-radius: 12px;
+
+    }
+.new_arrial_box_text{
+    /* Knitted Joggers */
+    position: absolute;
+    width: 140px;
+    height: 24px;
+    font-family: 'Causten';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+    color: #3C4242;
+    margin: 0px;
+}
+.new_arrial_box_text--1{
+    /* Knitted Joggers */
+    position: absolute;
+    width: 140px;
+    height: 24px;
+    left: 5.47px;
+    top: 295.67px;
+    font-family: 'Causten';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+    color: #3C4242;
+}
+.new_arrial_box_text--2{
+    /* Full Sleeve */
+    position: absolute;
+    width: 95px;
+    height: 24px;
+    left: 306.87px;
+    top: 295.67px;
+
+    font-family: 'Causten';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+    color: #3C4242;
+}
+.new_arrial_box_text--3{
+    /* Active T-Shirts */
+
+position: absolute;
+width: 133px;
+height: 24px;
+left: 608.26px;
+top: 295.67px;
+
+font-family: 'Causten';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+letter-spacing: 0.01em;
+
+color: #3C4242;
+}
+.new_arrial_box_text--4{
+    /* Urban Shirts */
+position: absolute;
+width: 120px;
+height: 24px;
+left: 909.66px;
+top: 295.67px;
+font-family: 'Causten';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+letter-spacing: 0.01em;
+color: #3C4242;
+}
+/* <!-- Big Saving Zone start --> */
+#Big_Saving_Zone{
+    /* Big saving zone */
+    position: absolute;
+    width: 1240px;
+    height: 908px;
+    left: 100px;
+    top: 1925.67px;
+}
+.Big_Saving_Zone_box{
+    /* Frame 395 */
+    position: absolute;
+    width: 1240px;
+    height: 806px;
+    left: 0px;
+    top: 102px;
+}
+.Big_Saving_Zone_box_small{
+    /* Hawaiian Shirts */
+    position: absolute;
+    width: 400px;
+    height: 393px;
+    left: 0px;
+    top: 0px;
+}
+.Big_Saving_Zone_box_small_text{
+    /* Text */
+    position: absolute;
+    width: 147px;
+    height: 263.84px;
+    left: 20px;
+    top: 64.4px;
+}
+.Big_Saving_Zone_box_small_text_h2{
+    /* Hawaiian Shirts */
+
+position: absolute;
+width: 134px;
+height: 77px;
+left: 0px;
+top: 0px;
+
+font-family: 'Core Sans C';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 38px;
+/* or 137% */
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+margin: 0px;
+}
+.Big_Saving_Zone_box_small_text_h6{
+/* Dress up in summer vibe */
+
+position: absolute;
+width: 150px;
+height: 17px;
+left: 0px;
+top: 86.47px;
+
+font-family: 'Causten';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+margin: 0px;
+color: #FFFFFF;
+
+
+}
+.Big_Saving_Zone_box_small_text_h3{
+/* UPTO 50% OFF */
+
+position: absolute;
+width: 135px;
+height: 22px;
+left: 0px;
+top: 113.37px;
+
+font-family: 'Causten';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+margin: 0px;
+color: #FFFFFF;
+
+
+}
+.Big_Saving_Zone_box--1{
+    background: url(../img/Big_Saving_Zone_box--1.png);
+}
+.Big_Saving_Zone_box--2{
+    background: url(../img/Big_Saving_Zone_box--2.png);
+    /* Printed T-Shirt */
+    position: absolute;
+    width: 400px;
+    height: 393px;
+    left: 420px;
+    top: 0px;
+    }
+.Big_Saving_Zone_box--3{
+    background: url(../img/Big_Saving_Zone_box--3.png);
+    /* Cargo Joggers */
+    position: absolute;
+    width: 400px;
+    height: 393px;
+    left: 840px;
+    top: 0px;
+}
+
+.Big_Saving_Zone_box_small_text_icon{
+    background: url(../img/icon/arrow.png);
+    /* arrow */
+    position: absolute;
+    width: 23.62px;
+    height: 25.86px;
+    left: 47px;
+    top: 166.22px;
+}
+.Big_Saving_Zone_box_text_icon--2{
+    /* arrow */
+    position: absolute;
+    width: 23px;
+    height: 25.86px;
+    left: 85px;
+    top: 230.67px;
+}
+.Big_Saving_Zone_box_small_btn{
+/* button */
+box-sizing: border-box;
+/* Auto layout */
+background:none;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 8px;
+gap: 12px;
+margin: 0px;
+position: absolute;
+width: 111px;
+height: 34px;
+left: 0px;
+top: 229.84px;
+border: 1px solid #FFFFFF;
+border-radius: 4px;
+background-clip: content-box;
+}
+
+.Big_Saving_Zone_box_text--2{
+    /* Text */
+position: absolute;
+width: 153px;
+height: 317.67px;
+left: 222px;
+top: 34.33px;
+}
+.Big_Saving_Zone_box_btn--2--start{
+    /* button */
+
+/* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 8px;
+    gap: 12px;
+
+    position: absolute;
+    width: 104px;
+    height: 34px;
+    left: 49px;
+    top: 0px;
+    border: #3C4242;
+    background: #3C4242;
+    border-radius: 4px;
+
+}
+.Big_Saving_Zone_box_btn--2--start .Big_Saving_Zone_box_btn_text--2--start{
+    /* Button */
+
+width: 72px;
+height: 14px;
+
+font-family: 'Causten';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+.Big_Saving_Zone_box_text_h2--2{
+    /* Printed T-Shirt */
+
+position: absolute;
+width: 104px;
+height: 77px;
+left: 48px;
+top: 62.67px;
+
+font-family: 'Core Sans C';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 38px;
+/* or 137% */
+text-align: right;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+
+}
+.Big_Saving_Zone_box_text_h6--2{
+    /* New Designs Every Week */
+
+position: absolute;
+width: 152px;
+height: 17px;
+left: 0px;
+top: 154.67px;
+
+font-family: 'Causten';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+text-align: right;
+
+color: #FFFFFF;
+
+
+}
+.Big_Saving_Zone_box_btn--2--end{
+    /* button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 8px;
+gap: 12px;
+
+position: absolute;
+width: 111px;
+height: 34px;
+left: 42px;
+top: 283.67px;
+
+border: 1px solid #FFFFFF;
+border-radius: 4px;
+
+}
+.Big_Saving_Zone_box_text_h3--2{
+    /* UPTO 40% OFF */
+
+position: absolute;
+width: 123px;
+height: 22px;
+left: 29px;
+top: 181.67px;
+
+font-family: 'Causten';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+text-align: right;
+
+color: #FFFFFF;
+
+
+}
+.Big_Saving_Zone_box_text--3{
+    /* Text */
+position: absolute;
+width: 156px;
+height: 260.6px;
+left: 227px;
+top: 64.74px;
+}
+.Big_Saving_Zone_box_text_h2--3{
+    /* Cargo Joggers */
+
+position: absolute;
+width: 114px;
+height: 77px;
+left: 1px;
+top: 0px;
+
+font-family: 'Core Sans C';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 38px;
+/* or 137% */
+letter-spacing: 0.02em;
+
+color: #3C4242;
+
+
+}
+.Big_Saving_Zone_box_text_h6--3{
+/* Move with style & comfort */
+
+position: absolute;
+width: 155px;
+height: 17px;
+left: 1px;
+top: 86.47px;
+
+font-family: 'Causten';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #3C4242;
+
+
+}
+.Big_Saving_Zone_box_text_h3--3{
+/* UPTO 50% OFF */
+
+position: absolute;
+width: 122px;
+height: 22px;
+left: 0px;
+top: 113.37px;
+
+font-family: 'Causten';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+color: #3C4242;
+
+
+}
+
+.Big_Saving_Zone_box_strong{
+    /* Urban Shirts */
+    position: absolute;
+    width: 610px;
+    height: 393px;
+    left: 0px;
+    top: 413px;
+}
+.Big_Saving_Zone_box_strong_text{
+    /* Urban Shirts */
+   /* Text */
+    position: absolute;
+    width: 133px;
+    height: 296.91px;
+    left: 357px;
+    top: 45.42px;
+}
+.Big_Saving_Zone_box_text--5{
+    /* Text */
+
+    position: absolute;
+    width: 164px;
+    height: 297.25px;
+    left: 350px;
+    top: 45.09px;
+}
+.Big_Saving_Zone_box_text--5 .Big_Saving_Zone_box_text_h2--5{
+    width: 163px;
+    height: 88px;
+    left: 1px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.Big_Saving_Zone_box_strong_text_h2{
+    /* Urban Shirts */
+
+    position: absolute;
+    width: 99px;
+    height: 88px;
+    left: 2px;
+    top: 0px;
+    font-family: 'Core Sans C';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    /* or 137% */
+    letter-spacing: 0.02em;
+    color: #3C4242;
+    margin: 0px;
+}
+.Big_Saving_Zone_box_strong_text_h6{
+    /* Street Style Icon */
+    position: absolute;
+    width: 113px;
+    height: 19px;
+    left: 1px;
+    top: 98.82px;
+    font-family: 'Causten';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3C4242;
+    margin: 0px;
+}
+.Big_Saving_Zone_box_strong_text_h3{
+    /* FLAT 60% OFF */
+    position: absolute;
+    width: 150px;
+    height: 24px;
+    left: 2px;
+    top: 129.57px;
+    font-family: 'Causten';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #3C4242;
+    margin: 0px;
+    }
+.Big_Saving_Zone_box_strong_text  .Big_Saving_Zone_box_strong_text_icon{
+        background: url(../img/icon/arrow_strong.png) no-repeat;
+        /* arrow */
+
+    position: absolute;
+    width: 27px;
+    height: 26.85px;
+    left: 50.61px;
+    top: 189.96px;
+}
+.Big_Saving_Zone_box_text_icon--3{
+    /* arrow */
+    background: url(../img/icon/arrow_strong.png) no-repeat;
+    position: absolute;
+    width: 27px;
+    height: 26.85px;
+    left: 45.61px;
+    top: 166.22px;
+    }
+.Big_Saving_Zone_box_strong_btn{
+    /* button */
+    box-sizing: border-box;
+/* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 8px;
+    gap: 12px;
+    position: absolute;
+    width: 132px;
+    height: 36px;
+    left: 0px;
+    top: 260.91px;
+    border: 2px solid #3C4242;
+    border-radius: 4px;
+    background-clip: content-box;
+    background: none;
+}
+.Big_Saving_Zone_box_btn_text{
+    /* Button */
+    width: 61px;
+    height: 14px;
+    font-family: 'Causten';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.Big_Saving_Zone_box_btn_text--4{
+    /* Button */
+
+width: 61px;
+height: 14px;
+
+font-family: 'Causten';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #3C4242;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+.Big_Saving_Zone_box_btn_text--5{
+    /* Button */
+
+width: 61px;
+height: 14px;
+
+font-family: 'Causten';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #3C4242;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+.Big_Saving_Zone_box--4{
+    background: url(../img/Big_Saving_Zone_box_strong_1.png);
+}
+.Big_Saving_Zone_box--5{
+    background: url(../img/Big_Saving_Zone_box_strong_2.png);
+    /* Oversized T-Shirts */
+    position: absolute;
+    width: 610px;
+    height: 393px;
+    left: 630px;
+    top: 413px;
+}
+/* <!-- Big Saving Zone_end --> */
+.Big_Saving_Zone_plus_box_banner{
+    /* WE MADE YOUR EVERYDAY FASHION BETTER! */
+
+position: absolute;
+width: 1240px;
+height: 640.06px;
+left: 100px;
+top: 2933.67px;
+
+
+}
+.Big_Saving_Zone_box_banner_plus_1{
+/* Frame 396 */
+background: url(../img/Big_Saving_Zone_box_banner_plus_1.png);
+
+position: absolute;
+width: 614px;
+height: 639.72px;
+left: 0px;
+top: 0.33px;
+
+}
+.box_Big_Saving_Zone_plus_banner_text{
+/* Text */
+
+position: absolute;
+width: 466px;
+height: 282px;
+left: 74px;
+top: 183px;
+
+
+}
+.box_Big_Saving_Zone_banner_plus_text_h1{
+/* h1 #headline */
+
+position: absolute;
+width: 466px;
+height: 84px;
+left: 0px;
+top: 0px;
+
+font-family: 'Core Sans C';
+font-style: normal;
+font-weight: 800;
+font-size: 34px;
+line-height: 50px;
+/* or 147% */
+letter-spacing: 0.207581px;
+
+color: #FFFFFF;
+
+
+}
+.box_Big_Saving_Zone_banner_plus_text_h4{
+/* h4 #sub-headline */
+
+position: absolute;
+width: 451px;
+height: 72px;
+left: 0px;
+top: 114px;
+
+font-family: 'Causten';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 1px;
+
+color: #FFFFFF;
+
+
+}
+.Big_Saving_Zone_banner_plus_btn{
+/* button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 44px;
+gap: 12px;
+
+position: absolute;
+width: 168px;
+height: 46px;
+left: 0px;
+top: 236px;
+
+background: #FFFFFF;
+border-radius: 8px;
+
+}
+.Big_Saving_Zone_banner_plus_btn_text{
+    /* Button */
+
+width: 105px;
+height: 22px;
+justify-content: center;
+font-family: 'Causten';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #3C4242;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+.Big_Saving_Zone_box_banner_plus_2{
+/* Rectangle 13 */
+
+position: absolute;
+width: 626px;
+height: 639.72px;
+right: 0px;
+top: 0px;
+
+background: url(../img/Big_Saving_Zone_box_banner_plus_2.png);
+
+}
+/* <!-- Categories_For_Men_start --> */
+#Categories_For_Men{
+    /* Categories For Men */
+/* Categories For Men */
+
+position: absolute;
+width: 1240px;
+height: 1054px;
+left: 100px;
+top: 3674px;
+
+
+}
+.Categories_For_Men_part{
+    /* Categories */
+
+position: absolute;
+width: 1239px;
+height: 952px;
+left: 1px;
+top: 102px;
+
+
+}
+.Categories_For_Men_part-1{
+/* Frame 49 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 50.27px;
+
+position: absolute;
+width: 1239px;
+height: 451px;
+left: 0px;
+top: 0px;
+
+
+}
+.Categories_For_Men_part-2{
+/* Frame 150 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 50.27px;
+
+position: absolute;
+width: 1239px;
+height: 451px;
+left: 0px;
+top: 501px;
+
+
+}
+.Categories_For_Men_box{
+/* Frame 15 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 15.64px;
+
+width: 270.36px;
+height: 451.35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.Categories_For_Men_box_img{
+    /* Rectangle 20 */
+
+width: 270.36px;
+height: 393.26px;
+
+
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.Categories_For_Men_box_text{
+    /* Frame 10 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 0px;
+
+width: 270.36px;
+height: 42.45px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+flex-wrap: wrap;
+}
+.Categories_For_Men_text_ten{
+    /* Shirts */
+
+width: 179.31px;
+height: 20.11px;
+
+font-family: 'Causten';
+font-style: normal;
+font-weight: 700;
+font-size: 17.8753px;
+line-height: 28px;
+/* or 156% */
+letter-spacing: -0.04em;
+margin: 0px;
+color: #2A2F2F;
+margin-right: 65px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.Categories_For_Men_text_mota{
+/* Explore Now! */
+
+width: 84.35px;
+height: 18.43px;
+margin: 0px;
+font-family: 'Causten';
+font-style: normal;
+font-weight: 500;
+font-size: 13.4065px;
+line-height: 28px;
+/* or 208% */
+letter-spacing: -0.04em;
+
+color: #7F7F7F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+.Categories_For_Men_text_icon{
+    height: 20px;
+    width: 20px;
+    background: url(../img/icon/arrow_strong.png) no-repeat;
+    background-size:contain ;
+    float: right;
+    /* arrow */
+    transform: rotate(-90deg);
+}
+.Categories_For_Men_box_img-1{
+    background: url(../img/Categories_For_Men_box_img-1.png);
+}
+.Categories_For_Men_box_img-2{
+    background: url(../img/Categories_For_Men_box_img-2.png);
+}
+.Categories_For_Men_box_img-3{
+    background: url(../img/Categories_For_Men_box_img-3.png);
+}
+.Categories_For_Men_box_img-4{
+    background: url(../img/Categories_For_Men_box_img-4.png);
+}
+.Categories_For_Men_box_img-5{
+    background: url(../img/Categories_For_Men_box_img-5.png);
+}
+.Categories_For_Men_box_img-6{
+    background: url(../img/Categories_For_Men_box_img-6.png);
+}
+.Categories_For_Men_box_img-7{
+    background: url(../img/Categories_For_Men_box_img-7.png);
+}
+.Categories_For_Men_box_img-8{
+    background: url(../img/Categories_For_Men_box_img-8.png);
+}
+/* <!-- Categories_For_Men_end --> */
+/* Categories For Women start */
+#Categories_For_Women{
+    /* Categories For Women */
+
+position: absolute;
+width: 1239px;
+height: 553px;
+left: 100px;
+top: 4828px;
+
+
+}
+.Categories_For_Women_box_package{
+    /* Frame 152 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 50px;
+
+position: absolute;
+width: 1239px;
+height: 451px;
+left: calc(50% - 1239px/2);
+top: 102px;
+
+
+}
+.Categories_For_Women_box{
+/* Frame 15 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 15.64px;
+
+width: 270.36px;
+height: 451.35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.Categories_For_Women_box_img{
+/* Rectangle 20 */
+
+width: 270.36px;
+height: 393.26px;
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.Categories_For_Women_box_text{
+    /* Frame 10 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 73.18px;
+
+width: 270.36px;
+height: 42.45px;
+
+
+/* Inside auto layout */
+flex: none;
+flex-grow: 0;
+
+}
+.Categories_For_Women_box_text_ten{
+/* Frame 9 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 3.91px;
+
+width: 179.31px;
+height:42.45px ;
+margin: 0px;
+font-family: 'Poppins';
+font-size: 17.88px;
+font-weight: 500;
+line-height: 27.93px;
+letter-spacing: -0.04em;
+text-align: left;
+
+/* Inside auto layout */
+flex: none;
+
+flex-grow: 0;
+
+}
+.Categories_For_Women_box_text_mota{
+/* Explore Now! */
+
+width: 100.35px;
+height: 18.43px;
+position: absolute;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 13.4065px;
+line-height: 28px;
+/* or 208% */
+color: #7F7F7F;
+margin: 20px 0px 0px 0px;
+
+/* Inside auto layout */
+flex: none;
+flex-grow: 0;
+
+}
+.Categories_For_Women_box_text_icon{
+    height: 20px;
+    width: 20px;
+    background: url(../img/icon/arrow_strong.png) no-repeat;
+    background-size:contain ;
+    /* arrow */
+    transform: rotate(-90deg);
+}
+.Categories_For_Women_box_img-1{
+    background: url(../img/Categories_For_Women_box_img-1.png);
+}
+.Categories_For_Women_box_img-2{
+    background: url(../img/Categories_For_Women_box_img-2.png);
+}
+.Categories_For_Women_box_img-3{
+    background: url(../img/Categories_For_Women_box_img-3.png);
+}
+.Categories_For_Women_box_img-4{
+    background: url(../img/Categories_For_Women_box_img-4.png);
+}
+.Categories_For_Women_banner{
+    /* Top Brands Deal */
+/* Top Brands Deal */
+
+position: absolute;
+width: 1233px;
+height: 357.17px;
+left: calc(50% - 1233px/2 + 3px);
+top: 700px;
+
+
+}
+.Categories_For_Women_box_banner{
+/* Rectangle 19 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1233px;
+height: 357.17px;
+left: 0px;
+top: 0px;
+
+background: #3C4242;
+/* Dark Grey - Fashion */
+border: 1.06938px solid #323232;
+border-radius: 12px;
+
+}
+.Categories_For_Women_box_banner_text_ten{
+/* Top Brands Deal */
+
+position: absolute;
+width: 409px;
+height: 49px;
+left: 412.57px;
+top: 43.84px;
+
+font-family: 'Core Sans C';
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+line-height: 49px;
+/* identical to box height */
+text-align: center;
+color: #FFFFFF;
+}
+.Categories_For_Women_box_banner_text_mota{
+/* Up To 60% off on brands */
+
+position: absolute;
+width: 235px;
+height: 26px;
+left: 500.26px;
+top: 118.7px;
+
+font-family: 'Causten';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.Categories_For_Women_box_banner_number{
+    /* Group 48 */
+
+position: absolute;
+width: 985.97px;
+height: 85.55px;
+left: 122.98px;
+top: 211.74px;
+display: inline-flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-between;
+}
+.Categories_For_Women_box_banner_img{
+    /* Group 43 */
+width: 177.52px;
+height: 85.55px;
+/* Rectangle 20 */
+background: #FFFFFF;
+border-radius: 12px;
+flex: none;
+}
+.Categories_For_Women_box_banner_img_1{
+    background: url(../img/Categories_For_Women_box_banner_img_1.png) no-repeat;
+  justify-content: space-around;
+    width: 149.08px;
+height: 53.47px;
+margin: 12.8px 31px 16px 15px;
+gap: 0px;
+opacity: 0px;
+    
+}
+.Categories_For_Women_box_banner_img_2{
+    background: url(../img/Categories_For_Women_box_banner_img_2.png) no-repeat;
+    width: 121.91px;
+height: 68.44px;
+margin: 12.8px 31px 16px 30px;
+gap: 0px;
+opacity: 0px;
+}
+.Categories_For_Women_box_banner_img_3{
+    background: url(../img/Categories_For_Women_box_banner_img_3.png) no-repeat;
+    width: 111.22px;
+height: 55.61px;
+margin: 12.8px 31px 16px 33px;
+gap: 0px;
+opacity: 0px;
+}
+.Categories_For_Women_box_banner_img_4{
+    background: url(../img/Categories_For_Women_box_banner_img_4.png) no-repeat;
+    width: 148.64px;
+height: 49.19px;
+margin: 12.8px 31px 16px 15px;
+gap: 0px;
+opacity: 0px;
+}
+.Categories_For_Women_box_banner_img_5{
+    background: url(../img/Categories_For_Women_box_banner_img_5.png) no-repeat;
+    width: 112.29px;
+height: 56.68px;
+margin: 12.8px 31px 16px 34px;
+gap: 0px;
+opacity: 0px;
+}
+/* Categories For Women end */
+   /* In The Limelight start */
+#In_The_Limelight{
+ 
+position: absolute;
+width: 1238px;
+height: 543px;
+left: 100px;
+top: 5915px;
+}
+.In_The_Limelight_box_package{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 36px;
+
+position: absolute;
+width: 1236px;
+height: 441px;
+left: calc(50% - 1236px/2 + 1px);
+top: 102px;
+}
+.In_The_Limelight_box{
+/* Product */
+
+width: 282px;
+height: 441px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.In_The_Limelight_box_img{
+    width: 282px;
+    height: 370px;
+    gap: 0px;
+    border-radius: 12px 0px 0px 0px;
+    opacity: 0px;
+
+}
+.In_The_Limelight_box_img-1{
+    background: url(../img/In_The_Limelight_box_img-1.png) no-repeat;
+}
+.In_The_Limelight_box_img-2{
+    background: url(../img/In_The_Limelight_box_img-2.png) no-repeat;
+}
+.In_The_Limelight_box_img-3{
+    background: url(../img/In_The_Limelight_box_img-3.png) no-repeat;
+}
+.In_The_Limelight_box_img-4{
+    background: url(../img/In_The_Limelight_box_img-4.png) no-repeat;
+}
+.In_The_Limelight_box_heart{
+/* Frame 49 */
+
+position: absolute;
+left: 81.19%;
+right: 7.34%;
+top: 6.06%;
+bottom: 86.6%;
+
+}
+.In_The_Limelight_box_text_package{
+    /* Frame 98 */
+    width: 281.38px;
+    height: 41px;
+    top: 400px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: row;
+}
+.In_The_Limelight_box_text{
+/* Frame 98 */
+/* Frame 97 */
+width: 166px;
+height: 41px;
+padding: 0px 1px 0px 0px;
+gap: 0px;
+opacity: 0px;
+}
+.In_The_Limelight_box_text_ten{
+/* Black Sweatshirt with .... */
+width: 164px;
+height: 19px;
+
+font-family: 'Causten';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+margin-bottom: 0px;
+color: #3C4242;
+}
+.In_The_Limelight_box_text_mota{
+/* Jhanvi’s Brand */
+width: 91px;
+height: 17px;
+left: 0px;
+top: 24px;
+font-family: 'Causten';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+margin-bottom: 0px;
+/* identical to box height */
+color: #807D7E;
+}
+.In_The_Limelight_box_text_package_gia{
+    /* Rectangle 26 */
+width: 82.31px;
+height: 36.58px;
+background: #F6F6F6;
+border-radius: 8px;
+margin: 14px 14px 14px 44px;
+}
+.In_The_Limelight_box_text_package_gia .In_The_Limelight_box_text_gia{
+
+
+width: 44px;
+height: 17px;
+font-family: 'Causten';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+justify-content: space-evenly;
+color: #3C4242;
+margin: 14px 14px 14px 14px;
+}
+/* In The Limelight end */
+
 /* footer */
 #footer{
     /* Footer */
