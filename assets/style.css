@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Causten';
+    src: url('../font-chu/Causten-Regular.otf');
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font-chu/Montserrat-Black.ttf');
+}
+@font-face {
+    font-family: 'Core Sans C';
+    src: url('../font-chu/Fontspring-DEMO-coresansc65.otf');
+  }
 *{
     padding: 0;
     margin: 0;
@@ -313,18 +325,7 @@ nav{
 /* banner end */
 /* content start */
 /* content end */
-@font-face {
-    font-family: 'Causten';
-    src: url('font-chu/Causten-Regular.otf');
-}
-@font-face {
-    font-family: 'Montserrat';
-    src: url('font-chu/Montserrat-Black.ttf');
-}
-@font-face {
-    font-family: 'Core Sans C';
-    src: url('font-chu/Fontspring-DEMO-coresansc65.otf');
-  }
+
 #sale{
     /* Deals */
     position: absolute;
@@ -1829,7 +1830,7 @@ position: absolute;
 width: 1238px;
 height: 543px;
 left: 100px;
-top: 5915px;
+top: 6215px;
 }
 .In_The_Limelight_box_package{
 /* Auto layout */
