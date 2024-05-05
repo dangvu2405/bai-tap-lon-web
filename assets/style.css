@@ -2318,13 +2318,13 @@ margin: 14px 14px 14px 14px;
     margin :8px;
 }
 .chplay_img{
-    background: url(../img/icon/chplay.png) no-repeat center center;
+    background: url(../img/chplay.png) no-repeat center center;
     width: 29.65px;
     height: 32.98px;
 
 }
 .appstore_img{
-    background: url(../img/icon/ios.png) no-repeat center center;
+    background: url(../img/ios.png) no-repeat center center;
     width: 20.62px;
     height: 31.63px;
 
