@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/mintaka" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/causten" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/roboto" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/coresansc" rel="stylesheet">
+    <link rel="stylesheet" href="createnewpass.css">
+    <title>Create New Passwowd </title>
+</head>
+<body>
+    <div id =" wrapper">
+        <div class =" header">
+                <div class="logo">
+                    <p>Euphoria</p>
+                    <div class = "ngan"></div>
+                    <div class = "dai"></div>
+                    <div class = "logo2"></div>
+                </div>
+                <div class="search">
+                    <div class =" iconsearch"></div>
+                        <input type="text"  placeholder="Search"><br>
+                </div>
+                <div id ="selectlang">
+                    <a href ="#"> English (united States)</a>
+                    <div class ="icondown"></div>
+                    <ul class ="selectlang">
+                        <li> <a href ="#"> English (united States) </a></li>
+                        <li> <a href ="#"> Vietmanese </a></li>
+                    </ul>    
+                </div>
+                <div class="Losi">
+                   <button id ="log" > Login</button>
+                   <button id ="sig" > Sign up</button>
+                </div>
+            </div>
+        <div class ="wrapper2">
+            <div class ="pic"></div>
+            <div class =" formdangnhap">
+                <span>Create New Passwowd</span>
+                <p>Your new password must be different from previous used passwords.</p>  
+               
+                <form class="mail" action="" method="post">
+                    <label for="Password">Password</label><br>
+                    <input type="password" id="Password" name="Password" required><br>
+                    <p>Must be at least 8 characters.</p>
+                    <label for="confirmpassword">Confirm Password</label><br>
+                    <input type="password" id="confirmpassword" name="confirmpassword" required><br>
+                    <p id="error-message" style="color: red; display: none;">New password and confirm new password do not match.</p>
+                    <button id="send" type="submit">Reset Password</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./creartenewpass.js"></script>
+</body>
+</html>

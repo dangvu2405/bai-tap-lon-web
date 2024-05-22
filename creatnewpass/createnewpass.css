@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    box-sizing: border-box; 
+}
+#wrapper{
+    width: 1655px;
+    height: 1075px;
+}
+
+
+.pic{
+    background: url("../creatnewpass/createnewpass.png");
+    width: 695px;
+    height: 956px;
+    flex-shrink: 0;
+}
+
+
+.header{
+    width: 1440px;
+    height: 111px;
+    flex-shrink: 0;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #BEBCBD;
+
+}
+
+
+.logo{
+    width: 91.165px;
+    height: 45px;
+    flex-shrink: 0;
+    display:inline-block;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo p{
+    color: #3C4242;
+    font-family: 'Mintaka', sans-serif;                                            
+    font-size: 34.064px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50%;  
+    
+}
+
+
+.ngan{
+    background: url("../dangnhap/imagedangnhap/ngan.png") no-repeat;
+    width: 23px;
+    height: 1px;
+    flex-shrink: 0;
+    margin-left: -90px;
+    margin-top: 21px;
+}
+
+
+.dai{
+    background: url("../dangnhap/imagedangnhap/dai.png") no-repeat;
+    width: 59.05px;
+    height: 1px;
+    flex-shrink: 0;
+    margin-left: 6px;
+    margin-top: 21px;
+}
+
+
+.logo2{
+    background: url("../dangnhap/imagedangnhap/Group.png" )no-repeat;
+    width: 53.804px;
+    height: 7.426px;
+    flex-shrink: 0;
+    margin-left: -58px;
+    margin-top: 34px;
+}
+
+
+.search{
+    width: 184px;
+    height:46px ;
+    
+    background-color: #F6F6F6;
+    border-radius: 8px;
+    margin-left: 163.83px;
+    display: inline-flex;
+    justify-content:center;
+    align-content:center;
+ 
+}
+.iconsearch{
+    background: url("../dangnhap/imagedangnhap/search.png" )no-repeat;
+    width: 20px;
+    height: 20px;
+margin-top: 12px;
+margin-left:12px;
+
+}
+
+input {
+    border-width: 0; /* Loại bỏ độ dày của viền */
+    border-style: none; /* Loại bỏ kiểu của viền */
+    border-color: transparent; /* Đặt màu sắc của viền thành trong suốt */
+    padding: 8px; 
+    height: 22px;
+    width: 56px;
+    color: #807D7E;
+    text-align: center;
+font-family: 'Causten', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding :0;
+background: #F6F6F6;
+margin-top: 12px;
+margin-left: 12px;
+  }
+.header .selectlang{
+ display:none;
+
+}
+.header #selectlang a  {
+    text-decoration: none;
+   color: #333;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    font-family: 'Causten', sans-serif;
+   
+    
+}
+.header #selectlang  {
+   list-style-type: none;
+   margin-left: 200px;
+}
+
+    
+ 
+
+.header  #selectlang .icondown{
+    background: url("../dangnhap/imagedangnhap/Vector.png" )no-repeat;
+    width: 10px;
+    height: 5px;
+    flex-shrink: 0 ;
+    display: inline-flex;
+    justify-content:center;
+    align-content:center;
+    margin-left: 10px;
+}
+.Losi{
+    margin-left: 70px;
+}
+button {
+    weight:140px;
+    height:46px;
+    border-radius: 8px;   
+    display: inline-flex;
+    padding: 12px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    cursor:pointer;
+}
+button:hover{
+    opacity: 0.8;
+}
+#sig{
+    margin-left: 30px;
+    background: none;
+    color: #8A33FD; 
+    border: 1px solid #131212;
+}
+#log{
+    background: none;
+    color: #8A33FD; 
+    border: 1px solid #131212;
+}
+.wrapper2{
+    display:flex;
+}
+.formdangnhap{
+    
+    width: 568px;
+height: 697px;
+flex-shrink: 0;
+margin-left:177px ;
+margin-top:60px;
+}
+span{
+    color: #333;
+font-family: 'Core Sans C', sans-serif;
+font-size: 34px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.68px;
+}
+.formdangnhap p{
+    color: #676B80;
+ font-family: 'Roboto', sans-serif;
+ font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; 
+margin-top: 10px;
+}
+label{
+    color: #3C4242;
+    font-family: 'Causten', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height:normal;
+letter-spacing: 0.36px;
+display: flex;
+margin-top: 30px;
+}
+.mail input{
+    display: flex;
+    width: 567px;
+    height: 58px;
+    
+justify-content: center;
+align-items: center;
+gap: 12px;
+border-radius: 8px;
+border: 1px solid #3C4242;
+margin-left:0px;
+margin-top:-10px ;
+background-color: #ffffff;
+}
+.mail p {
+    color: #807D7E;  
+    font-family: 'Causten', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -10px;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+#send{
+    background: #8A33FD;
+     color: #F6F6F6;
+     weight:140px;
+     height:46px;
+     border-radius: 8px;   
+     display: inline-flex;
+     padding: 12px 48px;
+     justify-content: center;
+     align-items: center;
+     gap: 12px;
+     cursor:pointer;
+     margin-top: 50px;
+     margin-bottom:10px;
+}
