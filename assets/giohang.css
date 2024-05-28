@@ -51,10 +51,89 @@ body {
 #content{
     width: 100%;
     height: 1000px;
-
+}
+.product{
+    margin: 50px;
+    width: 1240px;
+    height: 560px;
+}
+.san_pham_mua{
+    width: 1210px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    gap:50px;
+}
+.layout-san_pham_mua{
+    display: flex;
+    gap: 20px;
+}
+.img_san_pham{
+    background: black;
+    width: 105px;
+    height: 120px;
+    border-radius: 10px;
 }
 
-
+.ten_san_pham .name{
+    color: #3C4242;
+    font-family: 'Causten';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.36px;
+}
+.ten_san_pham .size{
+    color: #807D7E;
+    font-family: 'Causten';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.ten_san_pham .color{
+    color: #807D7E;
+    font-family: 'Causten';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.dulieu-san_pham_mua{
+    width: 920px;
+    display: flex;
+    justify-content: space-between;
+}
+.gia_san_pham{
+    color: #3C4242;
+    font-family: Causten;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.tong_gia_san_pham{
+    color: #3C4242;
+    font-family: Causten;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.soluong{
+    width: 100px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #F6F6F6;
+}
+.delete{
+    width: 14.86px;
+    height: 18px;
+    flex-shrink: 0;
+    background: url(../img/icon/deletecon.png);
+    background-size: cover;
+}
 
 
 
