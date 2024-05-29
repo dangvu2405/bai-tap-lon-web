@@ -1,9 +1,9 @@
 document.getElementById("log").addEventListener("click", function() {
-    window.location.href = "http://127.0.0.1:5500/dangnhap/trangdangnhap.html"; // Chuyển hướng đến trang đăng nhập
+    window.location.href = "../dangnhap/trangdangnhap.html"; // Chuyển hướng đến trang đăng nhập
 });
 
 document.getElementById("sig").addEventListener("click", function() {
-    window.location.href = "http://127.0.0.1:5500/dangki/trangdangki.html"; // Chuyển hướng đến trang đăng ký
+    window.location.href = "../dangki/trangdangki.html"; // Chuyển hướng đến trang đăng ký
 });
 
 document.querySelector(".mail").addEventListener("submit", function(event) {
@@ -30,5 +30,5 @@ document.querySelector(".mail").addEventListener("submit", function(event) {
 
     // Thông báo thành công và chuyển hướng
     alert("Password reset successfully!");
-    window.location.href = "http://127.0.0.1:5500/dangnhap/trangdangnhap.html"; // Chuyển hướng đến trang đăng nhập
+    window.location.href = "../dangnhap/trangdangnhap.html"; // Chuyển hướng đến trang đăng nhập
 });
