@@ -8,16 +8,14 @@
 #wrapper{
     width: 1655px;
     height: 1075px;
-    
 }
 
 
 .pic{
-    background: url("../dangki/imagedangki/anhpic2.png");
+    background: url("../checkemail/checkemail.png");
     width: 695px;
     height: 956px;
     flex-shrink: 0;
-
 }
 
 
@@ -142,12 +140,12 @@ line-height: normal;
 }
 .header #selectlang  {
    list-style-type: none;
+   margin-left: 200px;
 }
-.header #selectlang{
-    margin-left: 200px;
+
     
  
-}
+
 .header  #selectlang .icondown{
     background: url("../dangnhap/imagedangnhap/Vector.png" )no-repeat;
     width: 10px;
@@ -177,14 +175,13 @@ button:hover{
 }
 #sig{
     margin-left: 30px;
-    background: #8A33FD;
-     color: #F6F6F6;
-}
-#log{
     background: none;
     color: #8A33FD; 
     border: 1px solid #131212;
-    
+}
+#log{
+    background: #8A33FD;
+     color: #F6F6F6;
 }
 .wrapper2{
     display:flex;
@@ -197,9 +194,9 @@ button:hover{
 height: 697px;
 flex-shrink: 0;
 margin-left:177px ;
-margin-top:60px;
+margin-top:60px ;
 }
-.formdangnhap span{
+span{
     color: #333;
 font-family: 'Core Sans C', sans-serif;
 font-size: 34px;
@@ -208,186 +205,23 @@ font-weight: 600;
 line-height: normal;
 letter-spacing: 0.68px;
 }
-.formdangnhap p{
+.formdangnhap p {
     color: rgba(102, 102, 102, 0.80);
     font-family: 'Causten', sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    padding-top: 10px;
-}
-
-.google{
-    border-radius: 8px;
-    border: 1px solid #3C4242;
-    display: flex;
-width: 567px;
-padding: 16px 20px;
-justify-content: center;
-align-items: center;
-gap: 12px;
-margin-top: 50px;
-
-
-}
-.twitter{
-    display: flex;
-width: 567px;
-padding: 16px 20px;
-justify-content: center;
-align-items: center;
-gap: 12px;
-border-radius: 8px;
-border: 1px solid #3C4242;
-margin-top: 20px;
-
-}
-a{
-    text-decoration: none;
-    color: #8A33FD;
-    text-align: center;
-    font-family: 'Causten', sans-serif;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-.icongg{
-    background: url("../dangnhap/imagedangnhap/Google.png" )no-repeat;
-    width: 20px;
-height: 20px;
-flex-shrink: 0;
-}
-.icontt{
-    background: url("../dangnhap/imagedangnhap/twitter.png" )no-repeat;
-    width: 20px;
-height: 20px;
-flex-shrink: 0;
-}
-label{
-    color: #3C4242;
-    font-family: 'Causten', sans-serif;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height:normal;
-letter-spacing: 0.36px;
-
-
-}
-.mail input{
-    display: flex;
-    width: 567px;
-    height: 58px;
-    
-justify-content: center;
-align-items: center;
-gap: 12px;
-border-radius: 8px;
-border: 1px solid #3C4242;
-margin-left:0px;
-margin-top:10px;
-background-color: #ffffff;
-
-}
-.mail{
-    margin-top: 50px;
-}
-.mail p {
-    color: #EE1D52;
-    font-family: 'Causten', sans-serif;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-top: -20px;
-margin-bottom:30px;
-}
-#hide{
-    margin-left:15px;
-
-}
-#iconhide{
-    background: url("../dangnhap/imagedangnhap/Hide\ view.png" )no-repeat;
-    width: 18.188px;
-height: 15.996px;
-margin-left: 415px;
-}
-.mail #password span{
-    color: #3C4242;
-    font-family: 'Causten', sans-serif;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height:normal;
-letter-spacing: 0.36px;
-padding-top: -100px;
-
-}
-.checkbox1{
-    display: flex;
-}
-.checkbox2{
-    display: flex;
-
-}
-.mail span {
-    color: #807D7E;
-text-align: right;
-font-family: 'Causten', sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
-line-height: normal;
-
-
-}
-
-#agree  {
-    
-    cursor: pointer;
-    width: 18px;
-height: 18px;
-flex-shrink: 0;
-margin-top:2px;
-margin-right:10px;
-
-}
-.checkbox2 #subscribe {
-    cursor: pointer;
-    
-    width: 18px;
-height: 18px; 
-flex-shrink: 0;
-margin-top:2px;
-margin-right:10px;
-
-}
-.checkbox span{
-    color: #807D7E;
-    font-family: 'Causten', sans-serif;
-    font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-
-}
-#sig2{
-   
-  margin-top:50px;
-    background: #8A33FD;
-    color: #F6F6F6;
-    margin-bottom: 10px;
-}
-#loginnow{
-   
-    color: #3C4242;
-    font-family: 'Causten', sans-serif;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
 line-height: normal;
 letter-spacing: 0.32px;
+margin-bottom:30px;
+}
+
+#back {
+    color: #807D7E;
+    font-family: 'Causten', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 text-decoration-line: underline;
 }
