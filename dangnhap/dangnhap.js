@@ -22,7 +22,7 @@ document.getElementById("signin").addEventListener("click", function(event) {
         var userObj = JSON.parse(user);
         if (userObj.password === password) {
             alert("Đăng nhập thành công");
-            window.location.href = "./index.html";
+            window.location.href = "../index.html";
         } else {
             alert("Mật khẩu không đúng");
         }
