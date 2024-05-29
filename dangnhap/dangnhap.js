@@ -4,10 +4,10 @@ window.onload = function() {
     document.body.style.zoom = zoomLevel / 100;
 };
 document.getElementById("sig").addEventListener("click", function() {
-    window.location.href = "http://127.0.0.1:5500/dangki/trangdangki.html"; // Chuyển hướng đến trang đăng nhập
+    window.location.href = "../dangki/trangdangki.html"; // Chuyển hướng đến trang đăng nhập
 });
 document.getElementById("haveacc").addEventListener("click", function() {
-    window.location.href = "http://127.0.0.1:5500/dangki/trangdangki.html"; // Chuyển hướng đến trang đăng nhập
+    window.location.href = "../dangki/trangdangki.html"; // Chuyển hướng đến trang đăng nhập
 });
 document.getElementById("signin").addEventListener("click", function(event) {
     event.preventDefault(); // Ngăn chặn hành vi mặc định của form
