@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <title>Cửa Hàng NHà MOI</title>
+    <title>Áo thun 100% cotton tay ngắn thời trang mùa hè mới cho nữ</title>
 </head>
 <body>
     <header>
@@ -16,55 +16,111 @@
     <div id="content">
         <div id="sanpham" class="">
             <div class="sanpham_img">
-                <div class="sanpham_img_list">
-                    <div class="sanpham_list_img">
+                    <div class="sanpham_list_img--icon">
                         <div class="sanpham_list_img--choose">
-                            <div class="list_img sanpham_list_img--1"></div>
-                            <div class="list_img sanpham_list_img--2"></div>
-                            <div class="list_img sanpham_list_img--3"></div>
+                            <div class="list_img--smail">
+                                <img class="list_img cursor" src="../img/nyc1.jpg" onclick="currentSlide(1)"  ></img>
+                            </div>
+                            <div class="list_img--smail">
+                                <img class="list_img cursor" src="../img/In_The_Limelight_box_img-1.png" onclick="currentSlide(2)"  ></img>
+                            </div>
+                            <div class="list_img--smail">
+                                <img class="list_img cursor" src="../img/Rectangle101.jpeg" onclick="currentSlide(3)"  ></img>
+                            </div>
                         </div>
                         <div class="sanpham_list_img--arow">
-                            <div class="list_img--arow sanpham_list_img--arow--up"></div>
-                            <div class="list_img--arow sanpham_list_img--arow--down"></div>
+                            <div class="list_img--arow sanpham_list_img--arow--up" onclick="plusSlides(-1)"></div>
+                            <div class="list_img--arow sanpham_list_img--arow--down" onclick="plusSlides(1)"></div>
                         </div>
                     </div>
+                
+                    <div class="sanpham_list_img--big">
+                        <div class="list_img--big">
+                            <img  class="sanpham_img--big" style="width:100%;height: 100%;" src="../img/nyc1.jpg" ></img>
+                        </div>
+                        <div class="list_img--big">
+                            <img  class="sanpham_img--big" style="width:100%;height: 100%;" src="../img/In_The_Limelight_box_img-1.png" ></img>
+                        </div>
+                        <div class="list_img--big">
+                            <img  class="sanpham_img--big" style="width:100%;height: 100%;" src="../img/Rectangle101.jpeg" ></img>
+                        </div>
                 </div>
-                <div class="sanpham_img--big"></div>
                 </div>
+                <script>
+                    let slideIndex = 1;
+                    showSlides(slideIndex);
+                    
+                    function plusSlides(n) {
+                      showSlides(slideIndex += n);
+                    }
+                    
+                    function currentSlide(n) {
+                      showSlides(slideIndex = n);
+                    }
+                    
+                    function showSlides(n) {
+                      let i;
+                      let slides = document.getElementsByClassName("sanpham_img--big");
+                      let dots = document.getElementsByClassName("list_img");
+                      if (n > slides.length) {slideIndex = 1}
+                      if (n < 1) {slideIndex = slides.length}
+                      for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                      }
+                      for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                      }
+                      slides[slideIndex-1].style.display = "block";
+                      dots[slideIndex-1].className += " active";
+                    }
+                    </script>
             <div class="sanpham_buy">
-                <h1 class="sanpham_buy--name"></h1>
-                <div class="sanpham_buy_choose--coler">
-                    <h6>Colours Available </h6>
-                    <div class="sanpham_buy_choose--coler--list">
-                        <button class="sanpham_buy_choose--coler--list--item coler--list--item--1"></button>
-                        <button class="sanpham_buy_choose--coler--list--item coler--list--item--2"></button>
-                        <button class="sanpham_buy_choose--coler--list--item coler--list--item--3"></button>
-                        <button class="sanpham_buy_choose--coler--list--item coler--list--item--4"></button>
+                <div class="sanpham_buy--name">
+                    <h1>Áo thun 100% cotton tay ngắn thời trang mùa hè mới cho nữ </h1>
+                    <p>$2000</p>
                 </div>
-                </div>
-                <div class="sanpham_buy--dathang">
-                    <button class="sanpham_buy--dathang--giohang" type="button"><div class="giohang"></div><p>Add to cart</p></button>
-                    <button class="sanpham_buy--dathang--muangay" type="button"><p>$63.00</p></button>
-                </div>
-                <hr>
-                <div class="sanpham_buy--benlifit">
-                    <div class="buy--benlifit sanpham_buy--benlifit--1">
-                        <div class="benlifit--img benlifit--img--1"></div>
-                        <p class="benlifit_text">Secure payment</p>
+                <div class="sanpham_buy--data">
+                    <div class="sanpham_buy_choose--coler">
+                        <h6>Colours Available </h6>
+                        <div class="sanpham_buy_choose--coler--list">
+                            <button class="sanpham_buy_choose--coler--list--item coler--list--item--1"></button>
+                            <button class="sanpham_buy_choose--coler--list--item coler--list--item--2"></button>
+                            <button class="sanpham_buy_choose--coler--list--item coler--list--item--3"></button>
+                            <button class="sanpham_buy_choose--coler--list--item coler--list--item--4"></button>
                     </div>
-                    <div class="buy--benlifit sanpham_buy--benlifit--2">
-                        <div class="benlifit--img benlifit--img--2"></div>
-                        <p class="benlifit_text">Size & Fit</p>
                     </div>
-                    <div class="buy--benlifit sanpham_buy--benlifit--3">
-                        <div class="benlifit--img benlifit--img--3"></div>
-                        <p class="benlifit_text">Free shipping</p>
+                    <div class="sanpham_buy--dathang">
+                        <button class="sanpham_buy--dathang--giohang" type="button"><div class="giohang"></div><p>Add to cart</p></button>
+                        <button class="sanpham_buy--dathang--muangay" type="button"><p>$63.00</p></button>
                     </div>
-                    <div class="buy--benlifit sanpham_buy--benlifit--4">
-                        <div class="benlifit--img benlifit--img--4"></div>
-                        <p class="benlifit_text">Free Shipping & Returns</p>
+                    <hr>
+                    <div class="sanpham_buy--benlifit">
+                        <div class="buy--benlifit sanpham_buy--benlifit--1">
+                            <div class="benlifit--img ">
+                                <img src="../img/icon/credit card.jpg" class="benlifit--img--icon"></img>
+                            </div>
+                            <p class="benlifit_text">Secure payment</p>
+                        </div>
+                        <div class="buy--benlifit sanpham_buy--benlifit--2">
+                            <div class="benlifit--img ">
+                                <img src="../img/icon/Size & Fit.jpg" class="benlifit--img--icon"></img>
+                            </div>
+                            <p class="benlifit_text">Size & Fit</p>
+                        </div>
+                        <div class="buy--benlifit sanpham_buy--benlifit--3">
+                            <div class="benlifit--img ">
+                                <img src="../img/icon/truck.jpg" class="benlifit--img--icon"></img>
+                            </div>
+                            <p class="benlifit_text">Free shipping</p>
+                        </div>
+                        <div class="buy--benlifit sanpham_buy--benlifit--4">
+                            <div class="benlifit--img ">
+                                <img src="../img/icon/Free Shipping & Returns.jpg" class="benlifit--img--icon"></img>
+                            </div>
+                            <p class="benlifit_text">Free Shipping & Returns</p>
+                        </div>
                     </div>
-                </div>
+                </div> 
             </div>
         </div>
         <div class="chapter product">
@@ -130,7 +186,7 @@
             </div>
             <div class="product_descrition_video">
                 <video controls>
-                    <source src="../file/bunny.mp4">
+                    <source src="../img/0s_3.mp4">
                   </video>
             </div>
         </div>
@@ -141,8 +197,8 @@
         <div class="Similar_Products">
             <div class="Similar_Products_box">
                 <div class="Similar_Products_box--heart Similar_Products_box--heart--clicked">
-                    <i class="Similar_Products_box--heart--nocolor"></i>
-                    <i class="Similar_Products_box--heart--color"></i>
+                    <img class="Similar_Products_box--heart--nocolor"></img>
+                    <!-- <img class="Similar_Products_box--heart--color"></img> -->
                 </div>
                 <div class="Similar_Products_box--img Products_box--img--1"></div>
                 <div class="Similar_Products_box--text">
@@ -155,8 +211,8 @@
             </div>
             <div class="Similar_Products_box">
                 <div class="Similar_Products_box--heart Similar_Products_box--heart--clicked">
-                    <i class="Similar_Products_box--heart--nocolor"></i>
-                    <i class="Similar_Products_box--heart--color"></i>
+                    <img class="Similar_Products_box--heart--nocolor"></img>
+                    <!-- <img class="Similar_Products_box--heart--color"></img> -->
                 </div>
                 <div class="Similar_Products_box--img Products_box--img--2"></div>
                 <div class="Similar_Products_box--text">
@@ -169,8 +225,8 @@
             </div>
             <div class="Similar_Products_box">
                 <div class="Similar_Products_box--heart Similar_Products_box--heart--clicked">
-                    <i class="Similar_Products_box--heart--nocolor"></i>
-                    <i class="Similar_Products_box--heart--color"></i>
+                    <img class="Similar_Products_box--heart--nocolor"></img>
+                    <im class="Similar_Products_box--heart--color"></im>
                 </div>
                 <div class="Similar_Products_box--img Products_box--img--3"></div>
                 <div class="Similar_Products_box--text">
@@ -183,8 +239,8 @@
             </div>
             <div class="Similar_Products_box">
                 <div class="Similar_Products_box--heart Similar_Products_box--heart--clicked">
-                    <i class="Similar_Products_box--heart--nocolor"></i>
-                    <i class="Similar_Products_box--heart--color"></i>
+                    <img class="Similar_Products_box--heart--nocolor"></img>
+                    <!-- <img class="Similar_Products_box--heart--color"></img> -->
                 </div>
                 <div class="Similar_Products_box--img Products_box--img--4"></div>
                 <div class="Similar_Products_box--text">
@@ -197,8 +253,8 @@
             </div>
             <div class="Similar_Products_box">
                 <div class="Similar_Products_box--heart Similar_Products_box--heart--clicked">
-                    <i class="Similar_Products_box--heart--nocolor"></i>
-                    <i class="Similar_Products_box--heart--color"></i>
+                    <img class="Similar_Products_box--heart--nocolor"></img>
+                    <!-- <img class="Similar_Products_box--heart--color"></img> -->
                 </div>
                 <div class="Similar_Products_box--img Products_box--img--5"></div>
                 <div class="Similar_Products_box--text">
@@ -211,8 +267,8 @@
             </div>
             <div class="Similar_Products_box">
                 <div class="Similar_Products_box--heart Similar_Products_box--heart--clicked">
-                    <i class="Similar_Products_box--heart--nocolor"></i>
-                    <i class="Similar_Products_box--heart--color"></i>
+                    <img class="Similar_Products_box--heart--nocolor"></img>
+                    <!-- <img class="Similar_Products_box--heart--color"></img> -->
                 </div>
                 <div class="Similar_Products_box--img Products_box--img--6"></div>
                 <div class="Similar_Products_box--text">
@@ -225,8 +281,8 @@
             </div>
             <div class="Similar_Products_box">
                 <div class="Similar_Products_box--heart Similar_Products_box--heart--clicked">
-                    <i class="Similar_Products_box--heart--nocolor"></i>
-                    <i class="Similar_Products_box--heart--color"></i>
+                    <img class="Similar_Products_box--heart--nocolor"></img>
+                    <!-- <img class="Similar_Products_box--heart--color"></img> -->
                 </div>
                 <div class="Similar_Products_box--img Products_box--img--7"></div>
                 <div class="Similar_Products_box--text">
@@ -239,8 +295,8 @@
             </div>
             <div class="Similar_Products_box">
                 <div class="Similar_Products_box--heart Similar_Products_box--heart--clicked">
-                    <i class="Similar_Products_box--heart--nocolor"></i>
-                    <i class="Similar_Products_box--heart--color"></i>
+                    <img class="Similar_Products_box--heart--nocolor"></img>
+                    <!-- <img class="Similar_Products_box--heart--color"></img> -->
                 </div>
                 <div class="Similar_Products_box--img Products_box--img--8"></div>
                 <div class="Similar_Products_box--text">
@@ -337,5 +393,10 @@
     </div>
 </div>
 <!-- footer end -->
+
+
+
+
+
 </body>
 </html>
