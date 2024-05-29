@@ -19,7 +19,7 @@ function checkEmail(event) {
     } else {
         errorMessage.style.display = "none";
         localStorage.setItem("resetEmail", email); // Lưu email vào localStorage
-        window.location.href = "http://127.0.0.1:5500/creatnewpass/createnewpass.html"; // Chuyển hướng đến trang tạo mật khẩu mới
+        window.location.href = "../creatnewpass/createnewpass.html"; // Chuyển hướng đến trang tạo mật khẩu mới
     }
 }
 
