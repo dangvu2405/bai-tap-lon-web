@@ -1,9 +1,9 @@
 document.getElementById("log").addEventListener("click", function() {
-    window.location.href = "http://127.0.0.1:5500/dangnhap/trangdangnhap.html"; // Chuyển hướng đến trang đăng nhập
+    window.location.href = "../dangnhap/trangdangnhap.html"; // Chuyển hướng đến trang đăng nhập
 });
 
 document.getElementById("sig").addEventListener("click", function() {
-    window.location.href = "http://127.0.0.1:5500/dangki/trangdangki.html"; // Chuyển hướng đến trang đăng ký
+    window.location.href = "../dangki/trangdangki.html"; // Chuyển hướng đến trang đăng ký
 });
 
 // Kiểm tra email và chuyển hướng nếu hợp lệ
