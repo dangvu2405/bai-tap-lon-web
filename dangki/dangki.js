@@ -5,10 +5,10 @@
     document.body.style.zoom = zoomLevel / 100;
    };
     document.getElementById("log").addEventListener("click", function() {
-        window.location.href = "./dangnhap/trangdangnhap.html"; // Chuyển hướng đến trang đăng nhập
+        window.location.href = "../dangnhap/trangdangnhap.html"; // Chuyển hướng đến trang đăng nhập
     });
     document.getElementById("loginnow").addEventListener("click", function() {
-        window.location.href = "./dangnhap/trangdangnhap.html"; // Chuyển hướng đến trang đăng nhập
+        window.location.href = "../dangnhap/trangdangnhap.html"; // Chuyển hướng đến trang đăng nhập
     });
 
 function signup(event) {
