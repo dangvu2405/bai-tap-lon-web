@@ -1,4 +1,8 @@
-
+window.onload = function() {
+    var viewportWidth = window.innerWidth;
+    var zoomLevel = 110;
+    document.body.style.zoom = zoomLevel / 100;
+};
 document.getElementById("sig").addEventListener("click", function() {
     window.location.href = "http://127.0.0.1:5500/dangki/trangdangki.html"; // Chuyển hướng đến trang đăng nhập
 });
