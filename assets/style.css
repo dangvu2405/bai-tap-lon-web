@@ -456,7 +456,14 @@ nav{
     margin-left: 6px;
     margin-top: 21px;
 }
-
+.dulieu-san_pham_mua .text{
+    color: #3C4242;
+    font-family: Causten;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
 .logo2{
     background: url("../img/icon/Group\ .png" )no-repeat;

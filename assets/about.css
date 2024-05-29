@@ -46,7 +46,6 @@ body {
     height: 370px;
     gap: 0px;
     border-radius: 12px;
-    background: #6620C1;
 }
 .Similar_Products_box--text{
     display: flex;
@@ -178,6 +177,39 @@ body {
     align-items: normal;
     margin-left: 70px;
 }
+.Products_box--img--1{
+    background: url(../img/Categories_For_Women_box_img-2.png) no-repeat;
+    background-size: cover;
+}
+.Products_box--img--2{
+    background: url(../img/In_The_Limelight_box_img-3.png) no-repeat;
+    background-size: cover;
+}
+.Products_box--img--3{
+    background: url(../img/In_The_Limelight_box_img-1.png) no-repeat;
+    background-size: cover;
+}
+.Products_box--img--4{
+    background: url(../img/newarrial2.png) no-repeat;
+    background-size: cover;
+}
+.Products_box--img--5{
+    background: url(../img/newarrial3.png) no-repeat;
+    background-size: cover;
+}
+.Products_box--img--6{
+    background: url(../img/newarrial4.png) no-repeat;
+    background-size: cover;
+}
+.Products_box--img--7{
+    background: url(../img/goi_y-6.jpg) no-repeat;
+    background-size: cover;
+}
+.Products_box--img--8{
+    background: url(../img/goi_y-4.jpg) no-repeat;
+    background-size: cover;
+}
+
 
 #footer{
     /* Footer */
@@ -332,6 +364,8 @@ body {
     bottom: 26.92%;
     background: #2A2F2F;
 }
+
+
 .icon_lienket--instagram{
     /* Vector */
     position: absolute;

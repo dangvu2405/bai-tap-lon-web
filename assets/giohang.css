@@ -56,6 +56,7 @@ body {
     margin: 50px;
     width: 1240px;
     height: 560px;
+    
 }
 .san_pham_mua{
     width: 1210px;
@@ -104,22 +105,7 @@ body {
     display: flex;
     justify-content: space-between;
 }
-.gia_san_pham{
-    color: #3C4242;
-    font-family: Causten;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-.tong_gia_san_pham{
-    color: #3C4242;
-    font-family: Causten;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
+
 .soluong{
     width: 100px;
     height: 36px;
@@ -134,11 +120,127 @@ body {
     background: url(../img/icon/deletecon.png);
     background-size: cover;
 }
+.dulieu-san_pham_mua .text{
+    color: #3C4242;
+    font-family: 'Causten';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.thanhtoan{
+    display: flex;
+    background:#F6F6F6 ;
+    justify-content: space-around;
+    align-items: center;
+}
+.coupon{
+    margin :50px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-around;
+    gap:30px
+    
+}
+.nhap_coupon{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    background: #F6F6F6;
+}
+.nhap_coupon input{
+    border-radius: 15px 0 0 15px;
+}
+.coupon .nhap_coupon button{
+    background: #8A33FD;
+    border-radius: 0 15px 15px 0;
+    color: #FFFFFF;
+}
+.coupon button{
+    display: flex;
+    width: 232px;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 8px;
+    border: 1px solid #BEBCBD;
+    background: #FFF;
+}
+.sum-money{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 100px;
+}
+.sum-money button{
+    display: flex;
+    width: 232px;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 8px;
+    background: #8A33FD;
+    color: #FFFFFF;
+}
+.sum-money .Price{
+    display: flex;
+    gap:30px;
+}
+.sum-money h2{
+    color: #3C4242;
+    font-family: 'Causten';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.44px;
+}
+.sum-money p{
+    color: #3C4242;
+    font-family: 'Causten';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.44px;
+}
+.thongbao{
+    background: #F6F6F6;
+    position: absolute;
+    top:80px;
+    bottom: 0px;
+    width: 100%;
+    height: 1100px;
+    display: none;
+}
+.img_congig{
+    width: 100%;
+    height: 100%;
+    background: url(../img/order-confirmed\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.btn_congig{
+    position: absolute;
+    width: 300px;
+    height: 85px;
+    border-radius: 8px;
+    border: none;
+    top:705px;
+    right:320px;
+    background: #8A33FD;
+    color: #FFFFFF;
+    font-family: Causten;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
 
-
-
-
-
+}
 
 
 
